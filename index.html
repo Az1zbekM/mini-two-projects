@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Shipping calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+       <div class="div1"> 
+             <p>YouTube Subscribe Button</p>
+
+             <button class="btny btnyy divbtn" onclick="
+                 subscribe();
+             ">Subscribe</button>
+
+        </div>
+<div class="div2">
+    <p class="p-css">Amazon Shipping Calculator</p>
+    <input class="js-cost-input cost-input" type="text" placeholder="Cost of order" 
+    onkeydown="handleCostKeydown(event)">
+
+    <button class="calcul-btn " onclick="
+    calculateTotal();
+    ">Calculate</button>
+
+    <p class="js-total-cost total-cost-css"></p>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
